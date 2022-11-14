@@ -3,7 +3,7 @@ provider "aws" {
     profile = "terraform-user"
 }
 
-module "vpc1" {
+module "vpc" {
     source                          = "../modules/vpc"
     region                          = var.region
     project_name                    = var.project_name
