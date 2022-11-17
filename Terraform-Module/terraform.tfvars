@@ -1,6 +1,6 @@
 region="ap-south-1"
 project_name="test-project"
-vpc_id="10.0.0.0/16"
+vpc_cidr="10.0.0.0/16"
 public_subnet_az1_cidr="10.0.0.0/24"
 public_subnet_az2_cidr="10.0.1.0/24"
 private_app_subnet_az1_cidr="10.0.2.0/24"
