@@ -32,4 +32,3 @@ module "security-groups" {
     source = "../modules/security-groups"
     vpc_id = module.vpc.vpc_id
 }
-#Test
